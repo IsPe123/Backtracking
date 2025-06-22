@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class App {
     public static void main(String[] args) {
         Mochila mm = new Mochila(1000);
-        ParcialPeter par1 = new ParcialPeter(mm);
+        Parcial par1 = new Parcial(mm);
 
         Producto p1 = new Producto(96, 100);
         Producto p2 = new Producto(100, 250);
@@ -12,10 +12,8 @@ public class App {
         Producto p5 = new Producto(500, 1000);
         Producto p6 = new Producto(300, 350);
 
-        
         ArrayList<Producto> productos = new ArrayList<>();
         
-
         productos.add(p4);
         productos.add(p5);
         productos.add(p6);

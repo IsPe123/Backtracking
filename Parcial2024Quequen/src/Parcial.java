@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 
-public class ParcialPeter {
+public class Parcial {
     // Los productos entran una sola vez ¿? supongamos que si
     private Mochila mejorMochila;
     
-    public ParcialPeter(Mochila mejorMochila) {
+    public Parcial(Mochila mejorMochila) {
         this.mejorMochila = mejorMochila;
     }
 
@@ -52,27 +52,6 @@ public class ParcialPeter {
         }
         return menorPeso;
     }
-    
-/*     public static void main(String[] args) {
-        Producto p1 = new Producto(100, 500);
-        Producto p2 = new Producto(200, 250);
-        Producto p3 = new Producto(400, 600);
-        Producto p4 = new Producto(1500, 150);
-        Producto p5 = new Producto(50, 500);
-        Producto p6 = new Producto(900, 5000);
-        
-        ArrayList<Producto> productos = new ArrayList<>();
-        productos.add(p1);
-        productos.add(p2);
-        productos.add(p3);
-        productos.add(p4);
-        productos.add(p5);     
-        productos.add(p6); 
-
-        int cap = 1000;
-
-        System.out.println(backtrackingPublico(productos, cap));
-    } */
 
 
 }
